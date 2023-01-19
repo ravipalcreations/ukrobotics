@@ -1480,20 +1480,25 @@ p{
 }
 
 .logo-size{
-  height: 600px;
-  width: 600px;
+  height: 550px;
+  width: 550px;
   
 }
 .logo-space{
-  background-color: #000000;
+  background-color: #121111;
+  /* background: url('assets/img/banner-back-pic.jpg') !important; */
+  
 }
 .logo-oo{
-  border-radius: 56%;
-  padding: 40px;
+  border-radius:12%;
+  padding: 50px;
+  
 }
 .justin-al{
   text-align: center;
-  margin-top: 170px !important;
+  margin-top: 80px !important;
+  margin-bottom: 50px !important;
+  text-align: center;
 
 }
 .f-size{
@@ -1502,13 +1507,14 @@ p{
 }
 .pera-banner{
 color: whitesmoke;
+margin-top: -20px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 @media only screen and (max-width: 500px) {
   .justin-al {
-    margin-top: -150px !important;
+    /* margin-top: -150px !important; */
     padding-bottom: 30px;
   }
 }
@@ -1523,7 +1529,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
   margin-bottom: -40px;
   margin-top: 40px;
-  border-radius: 12px;
+  border-radius: 12px !important;
 }
 .aj-pit{
   margin-right: 20px;
@@ -1533,4 +1539,30 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .text-dd{
   color: white;
 }
+.second-img{
+  height: 400px;
+  width: 400px;
+  margin-left: 20%;
+}
+.Des-gtion{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .second-img {
+    margin-left: -10px;
+    /* margin-top:100px; */
+  }
+}
+@media only screen and (max-width: 500px) {
+  .pera-banner {
+    margin-left: -10px;
+    margin-top:20px;
+  }
+}
+
+/* ===================================================== */
+
 
